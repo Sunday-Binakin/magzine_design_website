@@ -187,3 +187,21 @@ img {
     font-size: 14px;
     margin: 0; /* Remove default margin for h4 */
   }
+  .grid-item p{
+    color: #a7a4a4;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .grid-item h4{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .grid-item h3{
+    font-weight: 200px;
+    font-family: sans-serif;
+  }
+  #currentDate{
+    color: #a7a4a4;
+  }
