@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 20;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -58,46 +63,62 @@
     gap: 20px;
      
 } */
-.trending-container{
+.trending-container {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding: 80px;
 }
-.image-slider{
+
+.image-slider {
     width: 100%;
 }
-.image-slider img{
+
+.image-slider img {
     width: 500px;
     border-radius: 10px;
 }
-.business-heading{
+
+.business-heading {
     font-weight: bold;
     font-size: 25px;
-    font-family: sans-serif         ;
+    font-family: sans-serif;
 }
-.text-slider{
+
+.text-slider {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .avatar-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+     display: flex  ;
+     
+}
+.avatar-details h4{
+    color: #a7a4a4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.avatar-details strong{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
     object-fit: cover;
     margin-right: 15px;
 }
 
 .avatar-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.4px; */
+    /* max-height: 2000px;  */
+    gap: 10px 5px;
 }
 
 .avatar-details span {
@@ -106,4 +127,63 @@
     color: #0f0f0f;
     margin-top: 5px;
 }
-    
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 42px;
+    grid-row-gap: 40px;
+    margin: 80px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item .grid-image {
+    border-radius: 12px;
+}
+
+.grid-avatar-container {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ 
+
+
+ 
+
+.avatar-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center; /* Vertically center the items */
+  }
+  
+  .avatar {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px;
+    border-radius: 50%; /* Make the avatar circular */
+    margin-right: 10px; /* Add a small margin between avatar and details */
+  }
+  
+  .avatar-details {
+    display: flex;
+    flex-direction: column; /* Stack name and title vertically */
+    justify-content: center; /* Vertically center the details */
+    gap: 2px;
+  }
+  
+  .avatar-details strong {
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  .avatar-details h4 {
+    font-size: 14px;
+    margin: 0; /* Remove default margin for h4 */
+  }
