@@ -12,7 +12,7 @@
 
 <body>
     <header class="nav-container">
-        <div class="search-bar">
+        . <div class="search-bar">
             <!-- <i class="fa fa-search"></i> -->
             <input type="search" name="search-bar-input" id="search-bar-input" placeholder="Search"
                 class="fa fa-search">
@@ -31,16 +31,21 @@
     <hr>
     <div class="main-section-container">
         <h1 class="trending-heading">Trending</h1>
-        <div class="trending-container">
-            <div class="image-slider">
+        <div class="carousel-container">
+            <div class="carousel-image-container">
                 <img src="./assets/images/img_1.jpg" alt="img">
             </div>
-            <div class="text-slider">
+            <div class="carousel-text-container">
+                <!-- <div class="carousel-text"> -->
+
+
                 <h4>Business,Travel</h4>
                 <h1 class="business-heading">Your most unhappy customers are your greatest source of learning.</h1>
 
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                    large
                     language ocean.</p>
                 <div class="avatar-container">
                     <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
@@ -49,10 +54,10 @@
                         <h4> CEO and Founder</h4>
                     </div>
                 </div>
-
-
+                <!-- </div> -->
             </div>
         </div>
+        <!-- from here -->
         <div class="grid-items">
             <div class="grid-item">
                 <img class="grid-image" src="./assets/images/img_3.jpg" alt="img">
@@ -140,55 +145,49 @@
             </div>
 
         </div>
+        <!-- ends here -->
         <!-- card slider -->
-        <div class="card-container">
-
-        </div>
-        <!-- sports and business grid -->
-        <div class="sports-and-business-grid">
-            <div class="sports">
-                <div class="sport-img-container">
-                    <img class="sports-img" src="./assets/images/img_1.jpg" alt="">
-                </div>
-                <div class="bio-avatar-container">
-                    <div class="bio-avatar-text">
-                        <h3>Business,Travel</h3>
-                        <h4>Your most unhappy customers are your greatest source of learning.</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live
-                            the blind texts.</p>
-                    </div>  
-                    <div class="avatar-container">
-                        <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
-                        <div class="avatar-details">
-                            <strong> Sergey Milkov</strong>
-                            <h4> CEO and Founder</h4>
-                        </div>
+        <div class="most-popular-container">
+            <div class="popular-post-image">
+                <img class="grid-image" src="./assets/images/img_4.jpg" alt="img">.</p>
+            </div>
+            <div class="popular-post-text">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
                     </div>
                 </div>
             </div>
+            <!-- </div> -->
         </div>
-        <!-- </div> -->
     </div>
     <footer>
         <div class="news-letter">
             <h2 class="subcribe-font">Subscribe to Newsletter</h2>
             <!-- <div class="subscribe-field"> -->
-                 
-                    <form action="#">
-                      
-                      <input type="text" id="fname" name="firstname" placeholder="Enter your email">
-                      <input type="submit" value="Submit">
-                    </form>
-                   
+
+            <form action="#">
+
+                <input type="text" id="fname" name="firstname" placeholder="Enter your email">
+                <input type="submit" value="Submit">
+            </form>
+
             <!-- </div> -->
         </div>
         <div class="social-media">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>    
-            <a href="#" class="fa fa-youtube"></a>    
+            <a class="media-color" href="#" class="fa fa-facebook"></a>
+            <a class="media-color" href="#" class="fa fa-twitter"></a>
+            <a class="media-color" href="#" class="fa fa-instagram"></a>
+            <a class="media-color" href="#" class="fa fa-youtube"></a>
+
         </div>
+        <!-- <p>Created by _nday </p> -->
     </footer>
     <script>
         const today = new Date();
