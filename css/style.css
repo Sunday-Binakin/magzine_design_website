@@ -205,3 +205,48 @@ img {
   #currentDate{
     color: #a7a4a4;
   }
+  .sports-and-business-grid{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 36px;
+padding-left: 50px;
+padding-right: 50px;
+  }
+
+.business{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 36px;
+    /* width: 100%; */
+  }
+.sports{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 36px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .bio-avatar
+  {
+    margin-left: 3%;
+  }
+  .sports-img
+{
+    border-radius: 10px;
+    size: 120px;
+    height: 175px;
+}
+.business-img
+{
+    border-radius: 10px;
+    size: 120px;
+    height: 150px;
+}
