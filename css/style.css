@@ -184,10 +184,11 @@
     margin: 80px;
 }
 
-.grid-item{
+.grid-item {
     height: 100%;
     width: 80%;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -493,27 +494,32 @@ grid-row-gap: 0px;
     height: 20%;
     /* height: 100px; */
     width: 1000px;
-    
+
 }
+
 /* .most-popular-container h2{ */
-    /* font-size: 40px; */
-    /* margin-left: 300px; */
-    /* margin-bottom: 40px; */
-    /* font-weight: 100px; */
+/* font-size: 40px; */
+/* margin-left: 300px; */
+/* margin-bottom: 40px; */
+/* font-weight: 100px; */
 /* } */
-.grid-item h3{
+.grid-item h3 {
     margin-top: 20px;
 }
-.grid-item p{
+
+.grid-item p {
     margin-bottom: 20px;
 }
-.carousel-text-container p{
+
+.carousel-text-container p {
     margin-bottom: 20px;
 }
-.carousel-text-container h1{
-    margin-bottom:15px
+
+.carousel-text-container h1 {
+    margin-bottom: 15px
 }
-.carousel-text-container{
+
+.carousel-text-container {
     color: #161515;
     /* background-color: #3f4244; */
     border-radius: 12px;
@@ -524,34 +530,39 @@ grid-row-gap: 0px;
     width: 100%;
     /* height: 70%; */
 }
-.popular-post-image img{
+
+.popular-post-image img {
     /* background-color: #0f0f0f; */
     width: 100%;
     height: 100%;
 }
 
 .popular-post-text {
-    background-color: #F8F9FA;  
+    background-color: #F8F9FA;
     margin-bottom: 500px;
 }
+
 .popular-post-text h3 {
-   margin-top: 20px; 
+    margin-top: 20px;
 }
+
 .popular-post-text p {
-   margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
-.avatar-container{
+
+.avatar-container {
     margin-bottom: 20px;
     margin-left: 5px;
 }
 
-.sports-and-business-container{
+.sports-and-business-container {
     display: flex;
     padding: 80px;
     flex-direction: row;
-    justify-content: center; 
-     
+    justify-content: center;
+
 }
+
 /* .sports-container{
     background-color: #645a5a; 
     padding: 100px;
@@ -589,76 +600,103 @@ grid-row-gap: 0px;
     justify-content: center;
  } */
 
-  .sport-container{
+.sport-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 40px;
-  }
-  .busines-container{
+}
+
+.busines-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-  }
-.s1,.b1{
-    
+}
+
+.s1,
+.b1 {
+
     width: 100%;
     height: 100%;
 }
+
 /* .b1{
     
     width: 100%;
     height: 100%;
 } */
-.s2,.b2{
+.s2,
+.b2 {
     margin-left: 00px;
     width: 100%;
 }
-.s1 img{
+
+.s1 img {
     height: 50%;
     /* width: 100%; */
 }
-.b1 img{
+
+.b1 img {
     height: 50%;
     /* width: 100%; */
 }
-.s2{
+
+.s2 {
     margin-left: -60px;
 }
-.b2{
+
+.b2 {
     margin-left: -60px;
 }
-.s2 p,.b2 p{
+
+.s2 p,
+.b2 p {
     margin-bottom: 10px;
 }
-.s2,.b2{
+
+.s2,
+.b2 {
     margin-top: -10px;
 }
-    /*
-.s1 img{
-    height: 28%;
+
+
+.card-container {
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.card-image {
+    height: 100%;
     width: 100%;
-    margin-right: 60px;
 }
-.s2{
-    margin: 20px;
-    margin-top: -300px;
-    padding-top: 41px;
+
+.card-image img {
+    height: 310px;
+    width: 89%;
 }
-.s2 p{
+
+.cardd-text {
+    display: flex;
+    flex-direction: column;
+    size: 70%;
+    /* background-color: #ebe1e1; */
+    text-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+.popular {
+    font-size: 30px;
+    margin-left: 330px;
+}
+.cardd-text h4,p{
     margin-bottom: 10px;
 }
- 
-  .b1{
-    width: -100%;
-    height: -100%;
-  }
-  .b1 img{
-    height: -28%;
-    width: -100%;
-    /* margin-right: 60px; */
-/* } */
- /* .b2{
-    margin-left: 40px;
- }  */
+.cardd-text h3{
+    margin-top: 10px;
+}
