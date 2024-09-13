@@ -183,9 +183,9 @@
     grid-column-gap: 12px;
     grid-row-gap: 10px;
     margin-top: -170px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     margin-left: 80px;
-    /* margin-right: 10px; */
+    margin-right: 80px;
 }
 
 .grid-item {
@@ -771,6 +771,8 @@ grid-row-gap: 0px;
 .sc1 img{
     width: 60%;
     height: 85%;
+    /* width: 200px;
+    height: 100px; */
     border-radius: 20px;
     margin-right: 100px;
 } 
@@ -797,7 +799,7 @@ grid-row-gap: 0px;
 }
 .sport-heading{
     font-size: 24px;
-    margin-left: -300px;
+    margin-left: -350px;
 }
 .heading{
     padding: 40px;
