@@ -86,3 +86,23 @@
             <!-- </div> -->
         </div>
     </div>
+
+     <div class="busines-container">
+                <div class="b1">
+                    <img src="./assets/images/news_10.jpg" alt="img">
+                </div>
+                <div class="b2">
+                    <h3>Business,Travel</h3>
+                    <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts.</p>
+                    <div class="avatar-container">
+                        <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                        <div class="avatar-details">
+                            <strong> Sergey Milkov</strong>
+                            <h4> CEO and Founder1</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
