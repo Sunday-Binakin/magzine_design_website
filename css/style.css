@@ -179,11 +179,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 42px;
-    grid-row-gap: 40px;
+    grid-column-gap: 12px;
+    grid-row-gap: 10px;
     margin: 80px;
 }
 
+.grid-item{
+    height: 100%;
+    width: 80%;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -347,7 +351,7 @@ input[type=text] input[type=submit] {
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 1330px;
+    /* width: 1330px; */
     /* padding: 40px; */
     background-color: #ebecee;
     /* margin: 40px; */
@@ -482,13 +486,37 @@ grid-row-gap: 0px;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
     padding-top: 40px;
-    padding-bottom: 300px;
-    height: 500px;
-    width: 700px;
+    /* padding-bottom: 300px; */
+    height: 20%;
+    /* height: 100px; */
+    width: 1000px;
     
+}
+/* .most-popular-container h2{ */
+    /* font-size: 40px; */
+    /* margin-left: 300px; */
+    /* margin-bottom: 40px; */
+    /* font-weight: 100px; */
+/* } */
+.grid-item h3{
+    margin-top: 20px;
+}
+.grid-item p{
+    margin-bottom: 20px;
+}
+.carousel-text-container p{
+    margin-bottom: 20px;
+}
+.carousel-text-container h1{
+    margin-bottom:15px
+}
+.carousel-text-container{
+    color: #161515;
+    /* background-color: #3f4244; */
+    border-radius: 12px;
 }
 
 .popular-post-image {
@@ -516,3 +544,121 @@ grid-row-gap: 0px;
     margin-bottom: 20px;
     margin-left: 5px;
 }
+
+.sports-and-business-container{
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: center; 
+     
+}
+/* .sports-container{
+    background-color: #645a5a; 
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.business-container{
+    background-color: #645a5a; 
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+} */
+/* .business-container{
+    background-color: #a53737;
+}
+.s1{
+    
+    width: 100%;
+    height: 100%;
+}
+.s1 img{
+    height: 50%;
+    width: 100%;
+    margin-right: 60px;
+}
+ .s2{
+    margin-right: 500px;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 40px;
+    
+ }
+ .s2 p{
+    margin-bottom: 20px;
+    justify-content: center;
+ } */
+
+  .sport-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .busines-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+.s1,.b1{
+    
+    width: 100%;
+    height: 100%;
+}
+/* .b1{
+    
+    width: 100%;
+    height: 100%;
+} */
+.s2,.b2{
+    margin-left: 00px;
+    width: 100%;
+}
+.s1 img{
+    height: 50%;
+    /* width: 100%; */
+}
+.b1 img{
+    height: 50%;
+    /* width: 100%; */
+}
+.s2{
+    margin-left: -60px;
+}
+.b2{
+    margin-left: -60px;
+}
+.s2 p,.b2 p{
+    margin-bottom: 10px;
+}
+.s2,.b2{
+    margin-top: -10px;
+}
+    /*
+.s1 img{
+    height: 28%;
+    width: 100%;
+    margin-right: 60px;
+}
+.s2{
+    margin: 20px;
+    margin-top: -300px;
+    padding-top: 41px;
+}
+.s2 p{
+    margin-bottom: 10px;
+}
+ 
+  .b1{
+    width: -100%;
+    height: -100%;
+  }
+  .b1 img{
+    height: -28%;
+    width: -100%;
+    /* margin-right: 60px; */
+/* } */
+ /* .b2{
+    margin-left: 40px;
+ }  */
