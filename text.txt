@@ -1,0 +1,168 @@
+<h4>Business,Travel</h4>
+                    <h1 class="business-heading">Your most unhappy customers are your greatest source of learning.</h1>
+
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large
+                        language ocean.</p>
+                    <div class="avatar-container">
+                        <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                        <div class="avatar-details">
+                            <strong> Sergey Milkov</strong>
+                            <h4> CEO and Founder</h4>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="carousel">
+                <div class="card">
+                    <h4>Business,Travel</h4>
+                <h1 class="business-heading">Your most unhappy customers are your greatest source of learning.</h1>
+
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div> 
+                  </div>
+            </div> -->
+            <!-- <div class="text-slider"> -->
+                <!-- <h4>Business,Travel</h4>
+                <h1 class="business-heading">Your most unhappy customers are your greatest source of learning.</h1>
+
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div> -->
+
+
+            <!-- </div> -->
+
+            <img class="grid-image" src="./assets/images/img_4.jpg" alt="img">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div>
+
+
+                <div class="most-popular-container">
+            <h2>Most Popular Trending</h2>
+            <div class="popular-post-image">
+                <img class="grid-image" src="./assets/images/img_4.jpg" alt="img">.</p>
+            </div>
+            <div class="popular-post-text">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder1</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+     <div class="busines-container">
+                <div class="b1">
+                    <img src="./assets/images/news_10.jpg" alt="img">
+                </div>
+                <div class="b2">
+                    <h3>Business,Travel</h3>
+                    <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts.</p>
+                    <div class="avatar-container">
+                        <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                        <div class="avatar-details">
+                            <strong> Sergey Milkov</strong>
+                            <h4> CEO and Founder1</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="grid-item">
+                <img class="grid-image" src="./assets/images/news_4.jpg" alt="img">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img class="grid-image" src="./assets/images/news_5.jpg" alt="img">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img class="grid-image" src="./assets/images/news_6.jpg" alt="img">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img class="grid-image" src="./assets/images/news_7.jpg" alt="img">
+                <h3>Business,Travel</h3>
+                <h4>Your most unhappy customers are your greatest source of learning.</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="avatar-container">
+                    <img src="./assets/images/profile_image.jpg" alt="Avatar" class="avatar">
+                    <div class="avatar-details">
+                        <strong> Sergey Milkov</strong>
+                        <h4> CEO and Founder</h4>
+                    </div>
+                </div>
+            </div>
